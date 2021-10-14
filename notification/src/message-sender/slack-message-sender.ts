@@ -14,7 +14,7 @@ export default class SlackMessageSender implements MessageSender {
     } else if (text.includes("FAILED")) {
       color = "danger";
     } else if (text.includes("STARTED")) {
-      color = "#EBF6F7";
+      color = "#C69026";
     }
 
     const body = {
